@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:queryId" element={<Respond />} />
+        <Route path="/#/:queryId" element={<Respond />} />
       </Routes>
     </Router>
   );
