@@ -5,7 +5,7 @@ const Respond = () => {
     const { queryId } = useParams();
     const [queryData, setQueryData] = useState(null);
     const [price, setPrice] = useState("");
-    const whatsappLink = `http://wa.me/15556368999` 
+    const whatsappLink = `https://wa.me/15551787272` 
 
     useEffect(() => {
         console.log("Fetching data for queryId:", queryId); // Debug log for queryId
